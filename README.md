@@ -1,7 +1,12 @@
-# Python
+# Adding GOTO statement into Python
 
-This is the Template Repl for Python.
+"Your scientists were so preoccupied with whether or not they could, they didn’t stop to think if they should." - That JURASSIC PARK guy
 
-Python is a dynamic language emphasizing readability.
+You guys remember basic.
 
-[Check out the official docs here](https://www.python.org/).
+Just what it sounds like, a decorator that patches the bytecode of a decorated function to allow variable assignments to specific string constants to be treated as GOTO/JUMP statements and LABELS to jump to.
+
+Just in case it needs to be said, yes this is a joke and has no actual uses, nor should anyone use it for anything real other than having fun.
+
+Live REPL demo here:
+[https://replit.com/@HristoGueorguie/Adding-GOTO-statement-to-Python-cue-eveil-laughter](https://replit.com/@HristoGueorguie/Adding-GOTO-statement-to-Python-cue-eveil-laughter).
