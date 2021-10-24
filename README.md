@@ -1,5 +1,7 @@
 # Adding GOTO statement into Python
 
+[GOTO Considered harmful](https://homepages.cwi.nl/~storm/teaching/reader/Dijkstra68.pdf) by Edgar Dijkstra
+
 "Your scientists were so preoccupied with whether or not they could, they didn’t stop to think if they should." - That JURASSIC PARK guy
 
 You guys remember basic.
@@ -7,6 +9,8 @@ You guys remember basic.
 Just what it sounds like, a decorator that patches the bytecode of a decorated function to allow variable assignments to specific string constants to be treated as GOTO/JUMP statements and LABELS to jump to.
 
 Just in case it needs to be said, yes this is a joke and has no actual uses, nor should anyone use it for anything real other than having fun.
+
+![XKCD Comic, GOTO](https://imgs.xkcd.com/comics/goto.png)
 
 All relevant code in main.py. 
 
