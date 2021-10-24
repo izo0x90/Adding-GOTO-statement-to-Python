@@ -8,5 +8,7 @@ Just what it sounds like, a decorator that patches the bytecode of a decorated f
 
 Just in case it needs to be said, yes this is a joke and has no actual uses, nor should anyone use it for anything real other than having fun.
 
+All relevant code in main.py. 
+
 Live REPL demo here:
 [https://replit.com/@HristoGueorguie/Adding-GOTO-statement-to-Python-cue-eveil-laughter](https://replit.com/@HristoGueorguie/Adding-GOTO-statement-to-Python-cue-eveil-laughter).
