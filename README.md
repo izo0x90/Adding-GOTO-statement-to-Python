@@ -22,7 +22,8 @@ pass                      << Do regular stuff
 pass
 pass 
 x = "#GOTO_mylabel"       << This is the goto statement, var name does not matter,
-                             statement has to be a string const, staring with key work #GOTO_ after that label name
+                             statement has to be a string const, 
+                             starting with keyword #GOTO_ after that label name
 pass
 pass
 pass                      <<  Do more regular stuff, of course after patching 
