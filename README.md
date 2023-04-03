@@ -16,22 +16,22 @@ All relevant code in main.py.
 
 Use:
 ```Python
-@goto_mutator            # << Decorate func you want to patch GOTOs into with mutator
+@goto_mutator            #   << Decorate func you want to patch GOTOs into with mutator
 some_func():
   pass                   #   << Do regular stuff
   pass
   pass 
   x = "#GOTO_mylabel"    #   << This is the goto statement, var name does not matter,
-                                statement has to be a string const, 
-                                starting with keyword #GOTO_ after that label name
+                         #      statement has to be a string const, 
+                         #      starting with keyword #GOTO_ after that label name
   pass
   pass
-  pass                     # <<  Do more regular stuff, of course after patching 
-                               the goto statemet will skip right over this secion
+  pass                     #  <<  Do more regular stuff, of course after patching 
+                           #      the goto statemet will skip right over this secion
                               
-  x = "#GOTOLABEL_mylabel" # << This is the LABEL we will that will be jumped to
+  x = "#GOTOLABEL_mylabel" #  << This is the LABEL we will that will be jumped to
   pass 
-  pass                     # << Keep doing stuff 
+  pass                     #  << Keep doing stuff 
 ```
 You should be able to define as many jumps and labels as desired, mutator will build a map and patch in jumps. 
 
